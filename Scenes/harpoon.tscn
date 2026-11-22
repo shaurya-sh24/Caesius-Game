@@ -1,0 +1,46 @@
+[gd_scene load_steps=8 format=3 uid="uid://pul0m8qlpus0"]
+
+[ext_resource type="Texture2D" uid="uid://cagk0rtac0fh8" path="res://Assets/Hook.png" id="1_hdtqa"]
+[ext_resource type="Script" uid="uid://bpy5catgah6u3" path="res://Scripts/harpoon.gd" id="1_s0ibq"]
+[ext_resource type="Texture2D" uid="uid://dwn4no0cr22bj" path="res://Assets/Rope2.png" id="2_wjml8"]
+[ext_resource type="AudioStream" uid="uid://nwov27svuc2b" path="res://Assets/Sound/harpoon_attach.mp3" id="4_lha3n"]
+[ext_resource type="Texture2D" uid="uid://tmpgfsa5ko0l" path="res://Assets/Harpoon_Gun.png" id="4_wjml8"]
+[ext_resource type="AudioStream" uid="uid://dr1h2j5egioyr" path="res://Assets/Sound/player_move.mp3" id="6_u5eyo"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wjml8"]
+radius = 11.114383
+
+[node name="Harpoon" type="Node2D" node_paths=PackedStringArray("harpoon_tip", "rope") groups=["harpoon"]]
+script = ExtResource("1_s0ibq")
+harpoon_tip = NodePath("Tip")
+rope = NodePath("Rope")
+max_distance = 280.0
+
+[node name="Rope" type="Line2D" parent="."]
+texture = ExtResource("2_wjml8")
+texture_mode = 1
+
+[node name="Tip" type="Area2D" parent="." groups=["harpoon"]]
+collision_layer = 8
+collision_mask = 34
+
+[node name="Sprite2D" type="Sprite2D" parent="Tip"]
+scale = Vector2(1.1, 1.1)
+texture = ExtResource("1_hdtqa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tip" groups=["harpoon"]]
+shape = SubResource("CircleShape2D_wjml8")
+
+[node name="HarpoonAttachAudio" type="AudioStreamPlayer2D" parent="Tip"]
+stream = ExtResource("4_lha3n")
+volume_db = 1.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.60565174, 0.56893396, 0.16174608, 1)
+texture = ExtResource("4_wjml8")
+
+[node name="PlayerMoveAudio" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_u5eyo")
+volume_db = -15.0
+
+[connection signal="body_entered" from="Tip" to="." method="_on_tip_body_entered"]

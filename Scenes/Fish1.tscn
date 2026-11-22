@@ -1,0 +1,82 @@
+[gd_scene load_steps=12 format=3 uid="uid://7tc7dvs8cd6"]
+
+[ext_resource type="Texture2D" uid="uid://trddautlod7f" path="res://Assets/Animals/Fish1.png" id="1_xl6dc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fqb8v"]
+atlas = ExtResource("1_xl6dc")
+region = Rect2(0, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g28y1"]
+atlas = ExtResource("1_xl6dc")
+region = Rect2(40, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3fih"]
+atlas = ExtResource("1_xl6dc")
+region = Rect2(80, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ygskc"]
+atlas = ExtResource("1_xl6dc")
+region = Rect2(120, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2jkvm"]
+atlas = ExtResource("1_xl6dc")
+region = Rect2(160, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qyhld"]
+atlas = ExtResource("1_xl6dc")
+region = Rect2(200, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8c3h7"]
+atlas = ExtResource("1_xl6dc")
+region = Rect2(240, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jqw5u"]
+atlas = ExtResource("1_xl6dc")
+region = Rect2(280, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1rhbu"]
+atlas = ExtResource("1_xl6dc")
+region = Rect2(320, 0, 40, 40)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yojo8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fqb8v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g28y1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i3fih")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ygskc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2jkvm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qyhld")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8c3h7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jqw5u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1rhbu")
+}],
+"loop": true,
+"name": &"Swim",
+"speed": 12.0
+}]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+modulate = Color(0.29466206, 0.23484102, 0.52256703, 1)
+sprite_frames = SubResource("SpriteFrames_yojo8")
+animation = &"Swim"
+frame_progress = 0.71717376

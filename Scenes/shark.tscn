@@ -1,0 +1,216 @@
+[gd_scene load_steps=47 format=3 uid="uid://dj5l0mbusthwn"]
+
+[ext_resource type="Texture2D" uid="uid://ccnt6jevcqrfn" path="res://Assets/Animals/Shark/0001.png" id="1_82l58"]
+[ext_resource type="Script" uid="uid://bvilwu3c3kc6w" path="res://Scripts/shark.gd" id="1_wxg3y"]
+[ext_resource type="PackedScene" uid="uid://cfjyle2rxd8s3" path="res://Scenes/bubbles.tscn" id="2_rybc2"]
+[ext_resource type="Texture2D" uid="uid://c8af57o2pfns1" path="res://Assets/Animals/Shark/0002.png" id="2_wxg3y"]
+[ext_resource type="Texture2D" uid="uid://cii0wb61iuyde" path="res://Assets/Animals/Shark/0003.png" id="3_rybc2"]
+[ext_resource type="Texture2D" uid="uid://cnrvq6je5ayhr" path="res://Assets/Animals/Shark/0004.png" id="4_yphxt"]
+[ext_resource type="Texture2D" uid="uid://lvw6maek1ism" path="res://Assets/Animals/Shark/0005.png" id="5_otndr"]
+[ext_resource type="Texture2D" uid="uid://c4evckxmeamuk" path="res://Assets/Animals/Shark/0006.png" id="6_d83ks"]
+[ext_resource type="Texture2D" uid="uid://tlgttdvj4w33" path="res://Assets/Animals/Shark/0007.png" id="7_j5qpl"]
+[ext_resource type="Texture2D" uid="uid://c72mgg8r3e8rb" path="res://Assets/Animals/Shark/0008.png" id="8_niyt5"]
+[ext_resource type="Texture2D" uid="uid://bk8ij5i4kifvl" path="res://Assets/Animals/Shark/0009.png" id="9_bpxyb"]
+[ext_resource type="Texture2D" uid="uid://hu84mrqiclog" path="res://Assets/Animals/Shark/0010.png" id="10_qieg7"]
+[ext_resource type="Texture2D" uid="uid://db133oguhl2lw" path="res://Assets/Animals/Shark/0011.png" id="11_i7bh4"]
+[ext_resource type="Texture2D" uid="uid://bo25ac2pkbx4p" path="res://Assets/Animals/Shark/0012.png" id="12_kfanw"]
+[ext_resource type="Texture2D" uid="uid://b0ifuxlngsfg1" path="res://Assets/Animals/Shark/0013.png" id="13_vkip1"]
+[ext_resource type="Texture2D" uid="uid://bsfmupnaaqdub" path="res://Assets/Animals/Shark/0014.png" id="14_ljd5q"]
+[ext_resource type="Texture2D" uid="uid://b25deibdx30v" path="res://Assets/Animals/Shark/0015.png" id="15_gulkj"]
+[ext_resource type="Texture2D" uid="uid://dutkqstn1s2l2" path="res://Assets/Animals/Shark/0016.png" id="16_wsupn"]
+[ext_resource type="Texture2D" uid="uid://jr2txtcrympk" path="res://Assets/Animals/Shark/0017.png" id="17_mepmo"]
+[ext_resource type="Texture2D" uid="uid://b8mrlfpj08m3p" path="res://Assets/Animals/Shark/0018.png" id="18_v7in0"]
+[ext_resource type="Texture2D" uid="uid://dxnenfhgfbnum" path="res://Assets/Animals/Shark/0019.png" id="19_yf7t0"]
+[ext_resource type="Texture2D" uid="uid://cqv5i8wimvx8l" path="res://Assets/Animals/Shark/0020.png" id="20_q6qse"]
+[ext_resource type="Texture2D" uid="uid://dugebqhoxdwth" path="res://Assets/Animals/Shark/0021.png" id="21_wxdlu"]
+[ext_resource type="Texture2D" uid="uid://cwo03cl117duf" path="res://Assets/Animals/Shark/0022.png" id="22_jn4ru"]
+[ext_resource type="Texture2D" uid="uid://db1envhhpubkk" path="res://Assets/Animals/Shark/0023.png" id="23_y5kvg"]
+[ext_resource type="Texture2D" uid="uid://7jx3ps7vo4mt" path="res://Assets/Animals/Shark/0024.png" id="24_385jf"]
+[ext_resource type="Texture2D" uid="uid://jkvdh1n4txew" path="res://Assets/Animals/Shark/0025.png" id="25_id8j5"]
+[ext_resource type="Texture2D" uid="uid://cd118t7rf06ef" path="res://Assets/Animals/Shark/0026.png" id="26_bbc3w"]
+[ext_resource type="Texture2D" uid="uid://cpg3tdglw1box" path="res://Assets/Animals/Shark/0027.png" id="27_vhvmu"]
+[ext_resource type="Texture2D" uid="uid://bnprg3855owoi" path="res://Assets/Animals/Shark/0028.png" id="28_qxmab"]
+[ext_resource type="Texture2D" uid="uid://ciiqxcvdc2lpf" path="res://Assets/Animals/Shark/0029.png" id="29_akegs"]
+[ext_resource type="Texture2D" uid="uid://b3xk3n2x7exdn" path="res://Assets/Animals/Shark/0030.png" id="30_2c1iw"]
+[ext_resource type="Texture2D" uid="uid://bamb4ovlj2be4" path="res://Assets/Animals/Shark/0031.png" id="31_08ijw"]
+[ext_resource type="Texture2D" uid="uid://dbwbtpeww5sk8" path="res://Assets/Animals/Shark/0032.png" id="32_8g8v0"]
+[ext_resource type="Texture2D" uid="uid://brmf27xs7ne6c" path="res://Assets/Animals/Shark/0033.png" id="33_ky61d"]
+[ext_resource type="Texture2D" uid="uid://cxdgccb84nnuf" path="res://Assets/Animals/Shark/0034.png" id="34_drnon"]
+[ext_resource type="Texture2D" uid="uid://bibar3go5wx7e" path="res://Assets/Animals/Shark/0035.png" id="35_jnmpm"]
+[ext_resource type="Texture2D" uid="uid://d3c23vxvkt18t" path="res://Assets/Animals/Shark/0036.png" id="36_1vujo"]
+[ext_resource type="Script" uid="uid://bb077byn0tgyr" path="res://Scripts/shark_hurtbox.gd" id="39_otndr"]
+[ext_resource type="Script" uid="uid://buw7aohb8jcl7" path="res://Scripts/shark_attack_hitbox.gd" id="40_d83ks"]
+[ext_resource type="AudioStream" uid="uid://pcylhme15fw0" path="res://Assets/Sound/shark_movement.mp3" id="41_d83ks"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oaw6m"]
+size = Vector2(64, 27)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_btdkr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_82l58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wxg3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_rybc2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_yphxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_otndr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_d83ks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_j5qpl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_niyt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_bpxyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_qieg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_i7bh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_kfanw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_vkip1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ljd5q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_gulkj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_wsupn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_mepmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_v7in0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_yf7t0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_q6qse")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_wxdlu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_jn4ru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_y5kvg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_385jf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_id8j5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_bbc3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_vhvmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_qxmab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_akegs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_2c1iw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_08ijw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_8g8v0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_ky61d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_drnon")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_jnmpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_1vujo")
+}],
+"loop": true,
+"name": &"swim",
+"speed": 60.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_iojre"]
+radius = 365.11093
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7td2s"]
+radius = 37.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wxg3y"]
+radius = 36.0
+
+[node name="Shark" type="CharacterBody2D"]
+collision_layer = 16
+collision_mask = 2
+script = ExtResource("1_wxg3y")
+health = 3
+bubbles_scene = ExtResource("2_rybc2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1.5)
+shape = SubResource("RectangleShape2D_oaw6m")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_btdkr")
+animation = &"swim"
+autoplay = "swim"
+frame_progress = 0.42004797
+
+[node name="DetectionArea" type="Area2D" parent="."]
+collision_layer = 64
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea"]
+shape = SubResource("CircleShape2D_iojre")
+
+[node name="Hurtbox" type="Area2D" parent="." node_paths=PackedStringArray("shark")]
+collision_layer = 16
+collision_mask = 136
+script = ExtResource("39_otndr")
+shark = NodePath("..")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+shape = SubResource("CircleShape2D_7td2s")
+
+[node name="AttackHitbox" type="Area2D" parent="."]
+collision_layer = 64
+script = ExtResource("40_d83ks")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackHitbox"]
+shape = SubResource("CircleShape2D_wxg3y")
+
+[node name="SharkDashAudio" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("41_d83ks")
+pitch_scale = 1.4
+
+[connection signal="body_entered" from="Hurtbox" to="." method="_on_hurtbox_body_entered"]
